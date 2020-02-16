@@ -13,11 +13,16 @@ router.get("/", function(req, res){
 //auth ROUTES
 
 
+
 //show register form
 router.get("/register",function(req,res){
 	res.render("register");
 });
 
+
+router.get("/myprofile",function(req,res){
+	res.render("myprofile");
+});
 
 //handle register post
 router.post("/register",function(req,res){
