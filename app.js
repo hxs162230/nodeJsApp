@@ -24,8 +24,8 @@ app.use(methodOverride("_method"));
 app.use(flash());
 
 //default port 27017
-//mongoose.connect("mongodb://localhost:27017/yelp_camp_te",{ useNewUrlParser: true , useUnifiedTopology: true });
-mongoose.connect("mongodb+srv://ivan:12345@yelpcamp-4gjvq.mongodb.net/test?retryWrites=true&w=majority",{ useNewUrlParser: true , useUnifiedTopology: true });
+mongoose.connect("mongodb://localhost:27017/yelp_camp_te",{ useNewUrlParser: true , useUnifiedTopology: true });
+//mongoose.connect("mongodb+srv://ivan:12345@yelpcamp-4gjvq.mongodb.net/test?retryWrites=true&w=majority",{ useNewUrlParser: true , useUnifiedTopology: true });
 //mongodb+srv://ivan:12345@yelpcamp-4gjvq.mongodb.net/test?retryWrites=true&w=majority
 
 
